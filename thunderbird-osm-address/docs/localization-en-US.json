@@ -1,0 +1,17 @@
+{
+  "version": "0.3.0",
+  "requestedLocale": "en-US",
+  "button": "Find address",
+  "dialog": {
+    "lang": "en-US",
+    "apply": "Use address",
+    "search": "Search and send",
+    "privacy": "By clicking “Search and send”, you send the displayed search text and possibly shorter variants to photon.komoot.io. The service also receives your IP address, language and search area. Title suggestions stay local until you click.",
+    "error": "The event is read-only."
+  },
+  "options": {
+    "heading": "Settings",
+    "country": "Germany"
+  },
+  "passed": true
+}

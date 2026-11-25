@@ -1,0 +1,124 @@
+{
+  "version": "0.4.1",
+  "requestedLocale": "en-US",
+  "thunderbird": "161.0",
+  "button": "Find address",
+  "dialog": {
+    "lang": "en-US",
+    "apply": "Use address",
+    "search": "Search and send",
+    "privacy": "By clicking “Search and send”, you send the displayed search text and possibly shorter variants to photon.komoot.io. The service also receives your IP address, language and search area. Title suggestions stay local until you click.",
+    "error": "The event is read-only."
+  },
+  "options": {
+    "heading": "Settings",
+    "country": "Germany",
+    "about": {
+      "title": "About OSM Address Lookup",
+      "description": "Find the address of a school, business or other place while editing a calendar event. Find address next to Location opens a Photon search based on OpenStreetMap. If Location is empty, selected title text or the event title provides an editable search suggestion.",
+      "privacy": "Only submitting a search sends the query to your configured Photon provider, which also sees your IP address. The map is off by default. No advertising, accounts or telemetry. Direct calendar integration requires Thunderbird’s full Experiment permission.",
+      "manifest": {
+        "applications": {
+          "gecko": {
+            "admin_install_only": null,
+            "data_collection_permissions": null,
+            "id": "osm-address-lookup@local.invalid",
+            "strict_max_version": "161.*",
+            "strict_min_version": "128.0",
+            "update_url": null
+          },
+          "gecko_android": null
+        },
+        "author": null,
+        "browser_specific_settings": {
+          "gecko": {
+            "admin_install_only": null,
+            "data_collection_permissions": null,
+            "id": "osm-address-lookup@local.invalid",
+            "strict_max_version": "161.*",
+            "strict_min_version": "128.0",
+            "update_url": null
+          },
+          "gecko_android": null
+        },
+        "description": "Find addresses for places and organisations with OpenStreetMap, then select and use them in Thunderbird calendar events.",
+        "developer": null,
+        "homepage_url": "https://github.com/Bran-doit/TB-Addons",
+        "install_origins": null,
+        "manifest_version": 2,
+        "name": "OSM Address Lookup",
+        "short_name": null,
+        "version": "0.4.1",
+        "background": {
+          "page": "moz-extension://91720343-0f5a-4d30-a1d3-e28b9b36c92a/background/background.html",
+          "persistent": true,
+          "preferred_environment": null,
+          "scripts": null,
+          "service_worker": null,
+          "type": null
+        },
+        "content_scripts": null,
+        "content_security_policy": "script-src 'self'; object-src 'none'; connect-src https:; img-src 'self' blob:; frame-src 'none'; base-uri 'none'",
+        "granted_host_permissions": false,
+        "hidden": false,
+        "icons": {
+          "48": "moz-extension://91720343-0f5a-4d30-a1d3-e28b9b36c92a/icons/marker.svg",
+          "96": "moz-extension://91720343-0f5a-4d30-a1d3-e28b9b36c92a/icons/marker.svg"
+        },
+        "incognito": "spanning",
+        "minimum_chrome_version": null,
+        "minimum_opera_version": null,
+        "optional_permissions": [],
+        "options_page": null,
+        "options_ui": {
+          "browser_style": false,
+          "chrome_style": null,
+          "open_in_tab": true,
+          "page": "moz-extension://91720343-0f5a-4d30-a1d3-e28b9b36c92a/options/options.html"
+        },
+        "permissions": [
+          "storage",
+          "https://*/*"
+        ],
+        "sandbox": null,
+        "web_accessible_resources": null,
+        "chrome_settings_overrides": null,
+        "browser_action": null,
+        "commands": null,
+        "cloud_file": null,
+        "compose_scripts": null,
+        "message_display_scripts": null,
+        "compose_action": null,
+        "message_display_action": null,
+        "oauth_provider": null,
+        "declarative_net_request": null,
+        "default_locale": "en",
+        "l10n_resources": null,
+        "protocol_handlers": null,
+        "theme_experiment": null,
+        "user_scripts": null,
+        "experiment_apis": {
+          "osmCalendar": {
+            "child": null,
+            "parent": {
+              "events": [],
+              "paths": [
+                [
+                  "osmCalendar"
+                ]
+              ],
+              "scopes": [
+                "addon_parent"
+              ],
+              "script": "experiment/api.js"
+            },
+            "schema": "experiment/schema.json"
+          }
+        }
+      },
+      "embedded": false
+    }
+  },
+  "map": null,
+  "passed": true
+}

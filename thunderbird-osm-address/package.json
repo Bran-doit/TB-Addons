@@ -1,0 +1,12 @@
+{
+  "name": "thunderbird-osm-address",
+  "private": true,
+  "version": "0.4.1",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": "0.4.1",
+  "requestedLocale": "de",
+  "thunderbird": "161.0",
+  "button": "Adresse suchen",
+  "dialog": {
+    "lang": "de",
+    "apply": "Übernehmen",
+    "search": "Suchen und senden",
+    "privacy": "Mit „Suchen und senden“ übermittelst du den angezeigten Suchtext und gegebenenfalls kürzere Varianten an photon.komoot.io. Der Dienst erhält auch deine IP-Adresse sowie Sprache und Suchgebiet. Titelvorschläge bleiben bis zu deinem Klick lokal.",
+    "error": "Der Termin ist schreibgeschützt."
+  },
+  "options": {
+    "heading": "Einstellungen",
+    "country": "Deutschland",
+    "about": {
+      "title": "Über OSM Address Lookup",
+      "description": "Finde die Adresse einer Schule, Firma oder anderen Einrichtung direkt beim Bearbeiten eines Kalendertermins. „Adresse suchen“ neben dem Ortsfeld öffnet die Suche mit Photon auf Basis von OpenStreetMap. Bei leerem Ort wird der markierte Titeltext oder der Termintitel als bearbeitbarer Suchvorschlag verwendet.",
+      "privacy": "Erst das Absenden der Suche übermittelt den Suchtext an den eingestellten Photon-Anbieter; dieser sieht auch deine IP-Adresse. Die Karte ist standardmäßig ausgeschaltet. Keine Werbung, Konten oder Telemetrie. Die direkte Kalenderintegration benötigt Thunderbirds umfassende Experiment-Berechtigung.",
+      "manifest": {
+        "applications": {
+          "gecko": {
+            "admin_install_only": null,
+            "data_collection_permissions": null,
+            "id": "osm-address-lookup@local.invalid",
+            "strict_max_version": "161.*",
+            "strict_min_version": "128.0",
+            "update_url": null
+          },
+          "gecko_android": null
+        },
+        "author": null,
+        "browser_specific_settings": {
+          "gecko": {
+            "admin_install_only": null,
+            "data_collection_permissions": null,
+            "id": "osm-address-lookup@local.invalid",
+            "strict_max_version": "161.*",
+            "strict_min_version": "128.0",
+            "update_url": null
+          },
+          "gecko_android": null
+        },
+        "description": "Findet Adressen zu Orts- und Einrichtungsnamen mit OpenStreetMap und übernimmt sie nach Auswahl in Thunderbird-Kalendertermine.",
+        "developer": null,
+        "homepage_url": "https://github.com/Bran-doit/TB-Addons",
+        "install_origins": null,
+        "manifest_version": 2,
+        "name": "OSM Address Lookup",
+        "short_name": null,
+        "version": "0.4.1",
+        "background": {
+          "page": "moz-extension://1d602aeb-e647-40d3-bebd-f04f1300d1e8/background/background.html",
+          "persistent": true,
+          "preferred_environment": null,
+          "scripts": null,
+          "service_worker": null,
+          "type": null
+        },
+        "content_scripts": null,
+        "content_security_policy": "script-src 'self'; object-src 'none'; connect-src https:; img-src 'self' blob:; frame-src 'none'; base-uri 'none'",
+        "granted_host_permissions": false,
+        "hidden": false,
+        "icons": {
+          "48": "moz-extension://1d602aeb-e647-40d3-bebd-f04f1300d1e8/icons/marker.svg",
+          "96": "moz-extension://1d602aeb-e647-40d3-bebd-f04f1300d1e8/icons/marker.svg"
+        },
+        "incognito": "spanning",
+        "minimum_chrome_version": null,
+        "minimum_opera_version": null,
+        "optional_permissions": [],
+        "options_page": null,
+        "options_ui": {
+          "browser_style": false,
+          "chrome_style": null,
+          "open_in_tab": true,
+          "page": "moz-extension://1d602aeb-e647-40d3-bebd-f04f1300d1e8/options/options.html"
+        },
+        "permissions": [
+          "storage",
+          "https://*/*"
+        ],
+        "sandbox": null,
+        "web_accessible_resources": null,
+        "browser_action": null,
+        "chrome_settings_overrides": null,
+        "cloud_file": null,
+        "commands": null,
+        "compose_scripts": null,
+        "message_display_scripts": null,
+        "compose_action": null,
+        "message_display_action": null,
+        "oauth_provider": null,
+        "declarative_net_request": null,
+        "default_locale": "en",
+        "l10n_resources": null,
+        "protocol_handlers": null,
+        "theme_experiment": null,
+        "user_scripts": null,
+        "experiment_apis": {
+          "osmCalendar": {
+            "child": null,
+            "parent": {
+              "events": [],
+              "paths": [
+                [
+                  "osmCalendar"
+                ]
+              ],
+              "scopes": [
+                "addon_parent"
+              ],
+              "script": "experiment/api.js"
+            },
+            "schema": "experiment/schema.json"
+          }
+        }
+      },
+      "embedded": false
+    }
+  },
+  "map": {
+    "tiles": 6,
+    "headers": [
+      "OSMAddressLookup/0.4.1 (Thunderbird add-on)",
+      "OSMAddressLookup/0.4.1 (Thunderbird add-on)",
+      "OSMAddressLookup/0.4.1 (Thunderbird add-on)",
+      "OSMAddressLookup/0.4.1 (Thunderbird add-on)",
+      "OSMAddressLookup/0.4.1 (Thunderbird add-on)",
+      "OSMAddressLookup/0.4.1 (Thunderbird add-on)"
+    ],
+    "frames": 0,
+    "attribution": "© OpenStreetMap-Mitwirkende (ODbL)"
+  },
+  "passed": true
+}

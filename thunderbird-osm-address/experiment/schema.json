@@ -1,0 +1,12 @@
+[
+  {
+    "namespace": "osmCalendar",
+    "functions": [
+      {"name": "apply", "type": "function", "async": true, "parameters": [{"name": "token", "type": "string"}, {"name": "address", "type": "string"}]},
+      {"name": "release", "type": "function", "async": true, "parameters": [{"name": "token", "type": "string"}]}
+    ],
+    "events": [
+      {"name": "onLookup", "type": "function", "parameters": [{"name": "token", "type": "string"}, {"name": "location", "type": "string"}, {"name": "suggestion", "type": "string"}]}
+    ]
+  }
+]

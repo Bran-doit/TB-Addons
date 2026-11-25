@@ -1,0 +1,30 @@
+{
+  "version": "0.3.0",
+  "requestedLocale": "de",
+  "button": "Adresse suchen",
+  "dialog": {
+    "lang": "de",
+    "apply": "Übernehmen",
+    "search": "Suchen und senden",
+    "privacy": "Mit „Suchen und senden“ übermittelst du den angezeigten Suchtext und gegebenenfalls kürzere Varianten an photon.komoot.io. Der Dienst erhält auch deine IP-Adresse sowie Sprache und Suchgebiet. Titelvorschläge bleiben bis zu deinem Klick lokal.",
+    "error": "Der Termin ist schreibgeschützt."
+  },
+  "options": {
+    "heading": "Einstellungen",
+    "country": "Deutschland"
+  },
+  "map": {
+    "tiles": 6,
+    "headers": [
+      "OSMAddressLookup/0.3.0 (Thunderbird add-on)",
+      "OSMAddressLookup/0.3.0 (Thunderbird add-on)",
+      "OSMAddressLookup/0.3.0 (Thunderbird add-on)",
+      "OSMAddressLookup/0.3.0 (Thunderbird add-on)",
+      "OSMAddressLookup/0.3.0 (Thunderbird add-on)",
+      "OSMAddressLookup/0.3.0 (Thunderbird add-on)"
+    ],
+    "frames": 0,
+    "attribution": "© OpenStreetMap-Mitwirkende (ODbL)"
+  },
+  "passed": true
+}

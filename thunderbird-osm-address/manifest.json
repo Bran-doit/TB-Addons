@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_addonName__",
+  "version": "0.4.1",
+  "description": "__MSG_addonDescription__",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "osm-address-lookup@local.invalid",
+      "strict_min_version": "128.0",
+      "strict_max_version": "161.*"
+    }
+  },
+  "permissions": [
+    "storage",
+    "https://*/*"
+  ],
+  "background": {
+    "page": "background/background.html"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "48": "icons/marker.svg",
+    "96": "icons/marker.svg"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'none'; connect-src https:; img-src 'self' blob:; frame-src 'none'; base-uri 'none'",
+  "experiment_apis": {
+    "osmCalendar": {
+      "schema": "experiment/schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "osmCalendar"
+          ]
+        ],
+        "script": "experiment/api.js"
+      }
+    }
+  },
+  "default_locale": "en",
+  "homepage_url": "https://github.com/Bran-doit/TB-Addons"
+}

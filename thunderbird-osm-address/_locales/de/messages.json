@@ -1,0 +1,251 @@
+{
+  "addonName": {
+    "message": "OSM Address Lookup"
+  },
+  "addonDescription": {
+    "message": "Findet Adressen zu Orts- und Einrichtungsnamen mit OpenStreetMap und übernimmt sie nach Auswahl in Thunderbird-Kalendertermine."
+  },
+  "lookup": {
+    "message": "Adresse suchen"
+  },
+  "lookupTip": {
+    "message": "Suchdialog öffnen; noch keine Daten senden"
+  },
+  "closed": {
+    "message": "Der Termin wurde geschlossen. Bitte den Suchdialog neu öffnen."
+  },
+  "readonly": {
+    "message": "Der Termin ist schreibgeschützt."
+  },
+  "conflict": {
+    "message": "Der Ort wurde inzwischen geändert. Bitte abbrechen und die Adresssuche neu öffnen."
+  },
+  "invalidAddress": {
+    "message": "Die ausgewählte Adresse ist ungültig."
+  },
+  "openFailed": {
+    "message": "OSM Address Lookup: Suchfenster konnte nicht geöffnet werden."
+  },
+  "expired": {
+    "message": "Diese Suche ist nicht mehr gültig. Bitte neu öffnen."
+  },
+  "queryLength": {
+    "message": "Bitte einen Suchtext mit höchstens 500 Zeichen eingeben."
+  },
+  "aborted": {
+    "message": "Suche abgebrochen."
+  },
+  "chooseCurrent": {
+    "message": "Bitte einen aktuellen Suchtreffer auswählen."
+  },
+  "unknownAction": {
+    "message": "Unbekannte Aktion."
+  },
+  "unresponsive": {
+    "message": "Die Erweiterung antwortet nicht. Bitte Suchdialog erneut öffnen."
+  },
+  "preview": {
+    "message": "Übernahme: "
+  },
+  "enterQuery": {
+    "message": "Bitte eine Adresse oder einen Ort eingeben."
+  },
+  "searching": {
+    "message": "Adressen werden gesucht …"
+  },
+  "noResults": {
+    "message": "Keine Treffer. Bitte den Namen der Einrichtung und den Ort verwenden; Zeitangaben und Veranstaltungstext weglassen."
+  },
+  "searchAgain": {
+    "message": "Mit Suchen oder Eingabe eine neue Suche starten."
+  },
+  "titleSuggestion": {
+    "message": "Suchvorschlag aus dem Termintitel. Bitte prüfen oder kürzen und auf Suchen klicken."
+  },
+  "enterPlace": {
+    "message": "Bitte den Namen einer Einrichtung, eine Adresse oder einen Ort eingeben."
+  },
+  "saved": {
+    "message": "Einstellungen gespeichert."
+  },
+  "resetNotice": {
+    "message": "Standardwerte eingesetzt. Zum Übernehmen bitte speichern."
+  },
+  "incomplete": {
+    "message": "Keine vollständige Straßenadresse"
+  },
+  "noNumber": {
+    "message": "Keine Hausnummer im Suchtreffer"
+  },
+  "tooLong": {
+    "message": "Die Suchanfrage darf höchstens 500 Zeichen enthalten."
+  },
+  "rateLimit": {
+    "message": "Der Suchdienst begrenzt Anfragen (HTTP 429). Bitte später erneut versuchen."
+  },
+  "invalidPhoton": {
+    "message": "Der Suchdienst hat keine gültige Photon-Antwort geliefert."
+  },
+  "timeout": {
+    "message": "Zeitüberschreitung: Der Suchdienst antwortet nicht innerhalb von 15 Sekunden."
+  },
+  "invalidResponse": {
+    "message": "Der Suchdienst hat eine ungültige Antwort geliefert."
+  },
+  "offline": {
+    "message": "Der Suchdienst ist nicht erreichbar. Bitte Internetverbindung und Dienst-URL prüfen."
+  },
+  "httpsURL": {
+    "message": "Bitte eine gültige HTTPS-URL eingeben."
+  },
+  "httpsOnly": {
+    "message": "Der Dienst benötigt HTTPS ohne Zugangsdaten, Suchparameter oder Fragment, z. B. https://photon.komoot.io/api/."
+  },
+  "languageCode": {
+    "message": "Sprache als Kürzel angeben, z. B. de, en oder fr."
+  },
+  "countryChoice": {
+    "message": "Bitte ein Suchland aus der Liste wählen."
+  },
+  "limitRange": {
+    "message": "Die Trefferanzahl muss zwischen 1 und 20 liegen."
+  },
+  "subtitle": {
+    "message": "Adressen aus OpenStreetMap finden"
+  },
+  "queryLabel": {
+    "message": "Name der Einrichtung, Adresse oder Ort"
+  },
+  "search": {
+    "message": "Suchen und senden"
+  },
+  "preparing": {
+    "message": "Suche wird vorbereitet …"
+  },
+  "selectResult": {
+    "message": "Treffer auswählen"
+  },
+  "mapLabel": {
+    "message": "Kartenansicht"
+  },
+  "mapHint": {
+    "message": "Die optionale Karte benötigt eine Internetverbindung. Die Adresse kann auch ohne Karte übernommen werden."
+  },
+  "settings": {
+    "message": "Einstellungen"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "apply": {
+    "message": "Übernehmen"
+  },
+  "attributionIntro": {
+    "message": "Suche: Photon · Daten:"
+  },
+  "attribution": {
+    "message": "© OpenStreetMap-Mitwirkende (ODbL)"
+  },
+  "notOfficial": {
+    "message": ". Ein Treffer ist keine amtliche Adressbestätigung."
+  },
+  "settingsTitle": {
+    "message": "OSM Address Lookup – Einstellungen"
+  },
+  "endpointLabel": {
+    "message": "Photon-Suchdienst (vollständige HTTPS-API-URL)"
+  },
+  "endpointHint": {
+    "message": "Die Ortsangabe wird an diesen Anbieter gesendet. Eigene Instanzen müssen Photon-kompatibel sein. Keine Zugangsdaten oder Suchparameter in der URL."
+  },
+  "languageLabel": {
+    "message": "Bevorzugte Sprache"
+  },
+  "countryLabel": {
+    "message": "Bevorzugtes Suchland"
+  },
+  "noBias": {
+    "message": "Keine geografische Bevorzugung"
+  },
+  "biasHint": {
+    "message": "Weiche Bevorzugung über den ungefähren Landesmittelpunkt. Ausländische Treffer bleiben möglich. Unterstützte Länder sind in dieser Liste aufgeführt."
+  },
+  "limitLabel": {
+    "message": "Anzahl der Suchergebnisse (1–20)"
+  },
+  "showCountry": {
+    "message": "Land bei deutschen Adressen anzeigen"
+  },
+  "enableMap": {
+    "message": "Kartenansicht aktivieren"
+  },
+  "mapPrivacy": {
+    "message": "Bei Auswahl eines Treffers wird eine OpenStreetMap-Karte geladen. Dabei erhält der Kartenanbieter IP-Adresse und Kartenausschnitt. Ohne Aktivierung werden keine Karten geladen."
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "defaults": {
+    "message": "Standardwerte einsetzen"
+  },
+  "settingsHint": {
+    "message": "Einstellungen gelten für neue Suchanfragen. Bereits offene Suchdialoge bitte für geänderte Kartenoptionen neu öffnen. Keine Telemetrie, keine Konten. Ein Suchtreffer bestätigt keine amtliche oder postalische Zustellbarkeit."
+  },
+  "privacy": {
+    "message": "Datenschutz"
+  },
+  "privacyNotice": {
+    "message": "Mit „Suchen und senden“ übermittelst du den angezeigten Suchtext und gegebenenfalls kürzere Varianten an $1. Der Dienst erhält auch deine IP-Adresse sowie Sprache und Suchgebiet. Titelvorschläge bleiben bis zu deinem Klick lokal."
+  },
+  "resultCount": {
+    "message": "$1 Treffer. Bitte die passende Adresse auswählen und prüfen."
+  },
+  "queryUsed": {
+    "message": " Gesucht nach: „$1“. Die Suche wurde angepasst; bitte den Einrichtungsnamen und Standort prüfen."
+  },
+  "httpError": {
+    "message": "Der Suchdienst meldet HTTP $1. Bitte später erneut versuchen."
+  },
+  "zoomIn": {
+    "message": "Vergrößern"
+  },
+  "zoomOut": {
+    "message": "Verkleinern"
+  },
+  "mapError": {
+    "message": "Kartenbilder nicht erreichbar. Die Adresse kann trotzdem übernommen werden."
+  },
+  "privacyText0": {
+    "message": "OSM Address Lookup – Datenschutzerklärung"
+  },
+  "privacyText1": {
+    "message": "OSM Address Lookup sucht Adressen für Kalendertermine. Es liest das Ortsfeld und beim Öffnen den Titel bzw. dessen markierte Passage für einen lokalen Suchvorschlag. Es liest keine Nachrichten, Teilnehmer oder Terminbeschreibungen. Der Titel wird nicht verändert."
+  },
+  "privacyText2": {
+    "message": "Erst mit „Suchen und senden“ wird der sichtbare Suchtext an den eingestellten HTTPS-Photon-Dienst gesendet, standardmäßig photon.komoot.io (komoot). Bei langen Einrichtungsnamen ohne Treffer werden bis zu zwei kürzere Varianten gesendet. Übertragen werden außerdem Sprache, Ergebnislimit und gegebenenfalls ein fester Landesmittelpunkt; der Anbieter sieht die IP-Adresse und technische HTTP-Verbindungsdaten. Es wird kein Gerätestandort ermittelt. Du kannst den Text vorher ändern und die Suche durch Schließen abbrechen; bereits gesendete Anfragen lassen sich nicht zurückholen."
+  },
+  "privacyText3": {
+    "message": "Die Karte ist standardmäßig ausgeschaltet. Wenn du sie in den Einstellungen aktivierst und einen Treffer auswählst, werden ausschließlich die benötigten Kartenbilder von tile.openstreetmap.org (OpenStreetMap Foundation) abgerufen. Der Anbieter erhält IP-Adresse, Kachelkoordinaten und Zoomstufe sowie die Add-on-Kennung und Version als User-Agent. Es werden keine Titel oder Suchtexte an den Kartenanbieter gesendet. Photon- und Kartenanfragen senden keine Cookies oder Anmeldedaten. Es gibt keine Telemetrie, Werbung oder Benutzerkonten."
+  },
+  "privacyText4": {
+    "message": "Einstellungen werden lokal über storage.local gespeichert. Bis zu 50 Suchanfragen und Ergebnisse bleiben im Arbeitsspeicher; der Cache verwendet Einträge höchstens fünf Minuten erneut und wird beim Beenden gelöscht. Netzwerk- und Kartenbilder können im normalen Thunderbird-HTTP-Cache liegen, dessen Aufbewahrung Thunderbird verwaltet. Der Add-on-Autor betreibt keinen Empfangsserver und speichert keine Suchdaten. Die eigenen Protokollierungs- und Aufbewahrungsregeln der gewählten Anbieter liegen außerhalb der Kontrolle dieses Add-ons. Eine eigene Photon-Instanz kann konfiguriert werden. Deaktivieren stoppt neue Add-on-Anfragen; Deinstallieren entfernt die Erweiterung und ihre Einstellungen gemäß Thunderbirds Verhalten."
+  },
+  "aboutTitle": {
+    "message": "Über OSM Address Lookup"
+  },
+  "aboutDescription": {
+    "message": "Finde die Adresse einer Schule, Firma oder anderen Einrichtung direkt beim Bearbeiten eines Kalendertermins. „Adresse suchen“ neben dem Ortsfeld öffnet die Suche mit Photon auf Basis von OpenStreetMap. Bei leerem Ort wird der markierte Titeltext oder der Termintitel als bearbeitbarer Suchvorschlag verwendet."
+  },
+  "aboutUsage": {
+    "message": "Prüfe den Suchbegriff und klicke auf „Suchen und senden“. Wähle den passenden Treffer und übernimm seine Adresse in das Ortsfeld. Der Titel bleibt erhalten; den Termin speicherst du anschließend selbst. Eine optionale Karte hilft bei der Auswahl. Die Oberfläche unterstützt Deutsch und Englisch."
+  },
+  "aboutPrivacy": {
+    "message": "Erst das Absenden der Suche übermittelt den Suchtext an den eingestellten Photon-Anbieter; dieser sieht auch deine IP-Adresse. Die Karte ist standardmäßig ausgeschaltet. Keine Werbung, Konten oder Telemetrie. Die direkte Kalenderintegration benötigt Thunderbirds umfassende Experiment-Berechtigung."
+  },
+  "projectLink": {
+    "message": "Dokumentation und Quellcode auf GitHub"
+  },
+  "supportLink": {
+    "message": "Fehler melden und Unterstützung"
+  }
+}

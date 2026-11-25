@@ -1,0 +1,102 @@
+{
+  "thunderbird": "161.0",
+  "addonVersion": "0.4.0",
+  "mode": "headless, isolated profile, extensions.webextensions.remote=false",
+  "tests": [
+    {
+      "test": "Already open editor receives button",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "New editor receives button",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Button is immediately to the right",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Title suggestion stays local until search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Cancel preserves empty location",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Existing location is transferred",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Opening a populated location sends no search",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Live Photon search returns results",
+      "passed": true,
+      "detail": "6 Treffer. Bitte die passende Adresse auswählen und prüfen."
+    },
+    {
+      "test": "No result selected automatically",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Apply writes only the selected editor",
+      "passed": true,
+      "detail": "Unter den Linden 6, 10117 Berlin"
+    },
+    {
+      "test": "Thunderbird detects unsaved change",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Save and reopen preserves address",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Concurrent location edits are protected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Editor in tab receives button",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Read-only field disables lookup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "School title is prepared locally",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "School found by name with visible adapted query",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "School address transferred without changing title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Uninstall removes all injected buttons",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

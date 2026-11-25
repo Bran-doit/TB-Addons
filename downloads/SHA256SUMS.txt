@@ -1,0 +1,2 @@
+ba48cf5e53c3aa783df7058be3dc6156f8d240417c2fd24fa61e1ed8c663e5ad  osm-address-lookup-0.4.1.xpi
+a8fc69689aa0539c8768b581c184694d4addc7b423f9a7184894bbc34f689e10  osm-address-lookup-0.4.1-source.zip

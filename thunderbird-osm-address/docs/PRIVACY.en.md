@@ -1,0 +1,9 @@
+# OSM Address Lookup – Privacy policy
+
+OSM Address Lookup finds addresses for calendar events. It reads the location field and, when opened, the title or selected title text to prepare a local suggestion. It does not read messages, attendees or event descriptions. It does not change the title.
+
+Only clicking “Search and send” sends the visible search text to the configured HTTPS Photon service, by default photon.komoot.io (komoot). For long place names with no results, up to two shorter variants are sent. Requests also contain the result language, limit and optionally a fixed country centre. The provider sees your IP address and technical HTTP connection data. No device location is obtained. You can edit the text first and close the dialog to cancel; requests already sent cannot be recalled.
+
+The map is off by default. If you enable it in settings and select a result, only the necessary map images are fetched from tile.openstreetmap.org (OpenStreetMap Foundation). The provider receives your IP address, tile coordinates and zoom level, plus the add-on identifier and version as the User-Agent. No titles or search text are sent to the tile provider. Photon and tile requests omit cookies and credentials. There is no telemetry, advertising or account system.
+
+Settings are stored locally using storage.local. Up to 50 queries and results remain in memory; cached entries are reused for at most five minutes and cleared on shutdown. Network responses and map images may be stored in Thunderbird’s normal HTTP cache, whose retention is managed by Thunderbird. The add-on author operates no receiving server and stores no search data. Provider logging and retention practices are outside the control of this add-on. You may configure your own Photon instance. Disabling stops new add-on requests; uninstalling removes the extension and its settings according to Thunderbird’s behaviour.

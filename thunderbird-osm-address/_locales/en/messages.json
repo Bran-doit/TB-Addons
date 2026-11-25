@@ -1,0 +1,251 @@
+{
+  "addonName": {
+    "message": "OSM Address Lookup"
+  },
+  "addonDescription": {
+    "message": "Find addresses for places and organisations with OpenStreetMap, then select and use them in Thunderbird calendar events."
+  },
+  "lookup": {
+    "message": "Find address"
+  },
+  "lookupTip": {
+    "message": "Open address search; no data sent yet"
+  },
+  "closed": {
+    "message": "The event was closed. Please reopen address search."
+  },
+  "readonly": {
+    "message": "The event is read-only."
+  },
+  "conflict": {
+    "message": "The location has changed in the meantime. Cancel and reopen address search."
+  },
+  "invalidAddress": {
+    "message": "The selected address is invalid."
+  },
+  "openFailed": {
+    "message": "OSM Address Lookup: Could not open the search window."
+  },
+  "expired": {
+    "message": "This search session has expired. Please reopen it."
+  },
+  "queryLength": {
+    "message": "Enter a search query of at most 500 characters."
+  },
+  "aborted": {
+    "message": "Search cancelled."
+  },
+  "chooseCurrent": {
+    "message": "Please select a current search result."
+  },
+  "unknownAction": {
+    "message": "Unknown action."
+  },
+  "unresponsive": {
+    "message": "The extension is not responding. Please reopen address search."
+  },
+  "preview": {
+    "message": "Use: "
+  },
+  "enterQuery": {
+    "message": "Enter an address or a place."
+  },
+  "searching": {
+    "message": "Searching for addresses …"
+  },
+  "noResults": {
+    "message": "No results. Try the place name and city; omit times and event descriptions."
+  },
+  "searchAgain": {
+    "message": "Click Search or press Enter to start a new search."
+  },
+  "titleSuggestion": {
+    "message": "Suggestion from the event title. Review or shorten it, then click Search and send."
+  },
+  "enterPlace": {
+    "message": "Enter a place name, address or city."
+  },
+  "saved": {
+    "message": "Settings saved."
+  },
+  "resetNotice": {
+    "message": "Defaults restored in the form. Save to apply them."
+  },
+  "incomplete": {
+    "message": "Not a complete street address"
+  },
+  "noNumber": {
+    "message": "No house number in this result"
+  },
+  "tooLong": {
+    "message": "The search query may contain at most 500 characters."
+  },
+  "rateLimit": {
+    "message": "The search service is rate limiting requests (HTTP 429). Try again later."
+  },
+  "invalidPhoton": {
+    "message": "The service did not return a valid Photon response."
+  },
+  "timeout": {
+    "message": "Timeout: The search service did not respond within 15 seconds."
+  },
+  "invalidResponse": {
+    "message": "The service returned an invalid response."
+  },
+  "offline": {
+    "message": "Cannot reach the search service. Check your internet connection and service URL."
+  },
+  "httpsURL": {
+    "message": "Enter a valid HTTPS URL."
+  },
+  "httpsOnly": {
+    "message": "Use HTTPS without credentials, query parameters or a fragment, e.g. https://photon.komoot.io/api/."
+  },
+  "languageCode": {
+    "message": "Enter a language code, e.g. de, en or fr."
+  },
+  "countryChoice": {
+    "message": "Select a preferred country from the list."
+  },
+  "limitRange": {
+    "message": "The result limit must be between 1 and 20."
+  },
+  "subtitle": {
+    "message": "Find addresses in OpenStreetMap"
+  },
+  "queryLabel": {
+    "message": "Place name, address or city"
+  },
+  "search": {
+    "message": "Search and send"
+  },
+  "preparing": {
+    "message": "Preparing search …"
+  },
+  "selectResult": {
+    "message": "Select a result"
+  },
+  "mapLabel": {
+    "message": "Map"
+  },
+  "mapHint": {
+    "message": "The optional map requires an internet connection. You can use an address without the map."
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "apply": {
+    "message": "Use address"
+  },
+  "attributionIntro": {
+    "message": "Search: Photon · Data:"
+  },
+  "attribution": {
+    "message": "© OpenStreetMap contributors (ODbL)"
+  },
+  "notOfficial": {
+    "message": ". A result is not an official address verification."
+  },
+  "settingsTitle": {
+    "message": "OSM Address Lookup – Settings"
+  },
+  "endpointLabel": {
+    "message": "Photon service (complete HTTPS API URL)"
+  },
+  "endpointHint": {
+    "message": "Search text is sent to this provider. Custom instances must be Photon-compatible. Do not include credentials or query parameters in the URL."
+  },
+  "languageLabel": {
+    "message": "Preferred result language"
+  },
+  "countryLabel": {
+    "message": "Preferred search country"
+  },
+  "noBias": {
+    "message": "No geographical preference"
+  },
+  "biasHint": {
+    "message": "Soft preference around the approximate country centre. Results from other countries remain possible. Supported countries are listed above."
+  },
+  "limitLabel": {
+    "message": "Number of results (1–20)"
+  },
+  "showCountry": {
+    "message": "Include country for German addresses"
+  },
+  "enableMap": {
+    "message": "Enable map"
+  },
+  "mapPrivacy": {
+    "message": "Selecting a result loads OpenStreetMap tiles. The tile provider receives your IP address and the map area. No maps are loaded while this option is off."
+  },
+  "save": {
+    "message": "Save"
+  },
+  "defaults": {
+    "message": "Restore defaults"
+  },
+  "settingsHint": {
+    "message": "Settings apply to new searches. Reopen existing search dialogs after changing map settings. No telemetry or accounts. A result does not verify official or postal deliverability."
+  },
+  "privacy": {
+    "message": "Privacy"
+  },
+  "privacyNotice": {
+    "message": "By clicking “Search and send”, you send the displayed search text and possibly shorter variants to $1. The service also receives your IP address, language and search area. Title suggestions stay local until you click."
+  },
+  "resultCount": {
+    "message": "$1 results. Select and check the correct address."
+  },
+  "queryUsed": {
+    "message": " Searched for: “$1”. The query was adapted; check the place name and location."
+  },
+  "httpError": {
+    "message": "The search service returned HTTP $1. Try again later."
+  },
+  "zoomIn": {
+    "message": "Zoom in"
+  },
+  "zoomOut": {
+    "message": "Zoom out"
+  },
+  "mapError": {
+    "message": "Map tiles are unavailable. You can still use this address."
+  },
+  "privacyText0": {
+    "message": "OSM Address Lookup – Privacy policy"
+  },
+  "privacyText1": {
+    "message": "OSM Address Lookup finds addresses for calendar events. It reads the location field and, when opened, the title or selected title text to prepare a local suggestion. It does not read messages, attendees or event descriptions. It does not change the title."
+  },
+  "privacyText2": {
+    "message": "Only clicking “Search and send” sends the visible search text to the configured HTTPS Photon service, by default photon.komoot.io (komoot). For long place names with no results, up to two shorter variants are sent. Requests also contain the result language, limit and optionally a fixed country centre. The provider sees your IP address and technical HTTP connection data. No device location is obtained. You can edit the text first and close the dialog to cancel; requests already sent cannot be recalled."
+  },
+  "privacyText3": {
+    "message": "The map is off by default. If you enable it in settings and select a result, only the necessary map images are fetched from tile.openstreetmap.org (OpenStreetMap Foundation). The provider receives your IP address, tile coordinates and zoom level, plus the add-on identifier and version as the User-Agent. No titles or search text are sent to the tile provider. Photon and tile requests omit cookies and credentials. There is no telemetry, advertising or account system."
+  },
+  "privacyText4": {
+    "message": "Settings are stored locally using storage.local. Up to 50 queries and results remain in memory; cached entries are reused for at most five minutes and cleared on shutdown. Network responses and map images may be stored in Thunderbird’s normal HTTP cache, whose retention is managed by Thunderbird. The add-on author operates no receiving server and stores no search data. Provider logging and retention practices are outside the control of this add-on. You may configure your own Photon instance. Disabling stops new add-on requests; uninstalling removes the extension and its settings according to Thunderbird’s behaviour."
+  },
+  "aboutTitle": {
+    "message": "About OSM Address Lookup"
+  },
+  "aboutDescription": {
+    "message": "Find the address of a school, business or other place while editing a calendar event. Find address next to Location opens a Photon search based on OpenStreetMap. If Location is empty, selected title text or the event title provides an editable search suggestion."
+  },
+  "aboutUsage": {
+    "message": "Review the query and click Search and send. Select the matching result and use its address in Location. The title stays unchanged; you save the event yourself. An optional map helps you choose a result. The interface supports English and German."
+  },
+  "aboutPrivacy": {
+    "message": "Only submitting a search sends the query to your configured Photon provider, which also sees your IP address. The map is off by default. No advertising, accounts or telemetry. Direct calendar integration requires Thunderbird’s full Experiment permission."
+  },
+  "projectLink": {
+    "message": "Documentation and source code on GitHub"
+  },
+  "supportLink": {
+    "message": "Report an issue or get help"
+  }
+}

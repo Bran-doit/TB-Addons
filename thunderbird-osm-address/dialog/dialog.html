@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title data-i18n="lookup">Adresse suchen</title><link rel="stylesheet" href="../ui.css"></head>
+<body><main>
+  <header><img src="../icons/marker.svg" width="36" height="36" alt=""><div><h1 data-i18n="lookup">Adresse suchen</h1><p data-i18n="subtitle">Adressen aus OpenStreetMap finden</p></div></header>
+  <form id="search-form"><label for="query" data-i18n="queryLabel">Name der Einrichtung, Adresse oder Ort</label><div class="row"><input id="query" type="search" maxlength="500" autocomplete="off" autofocus><button id="search" type="submit" data-i18n="search">Suchen</button></div></form>
+  <p class="hint" id="privacy">Beim Suchen wird nur diese Ortsangabe an den eingestellten Suchdienst gesendet.</p>
+  <p id="status" role="status" aria-live="polite" data-i18n="preparing">Suche wird vorbereitet …</p>
+  <fieldset id="results-box" hidden><legend data-i18n="selectResult">Treffer auswählen</legend><div id="results"></div></fieldset>
+  <p id="preview" class="preview" hidden></p>
+  <section id="map-box" hidden aria-label="Map" data-i18n-label="mapLabel"><div id="map" role="img" aria-label="Map" data-i18n-label="mapLabel"></div><p class="hint" data-i18n="mapHint">Die optionale Karte benötigt eine Internetverbindung. Die Adresse kann auch ohne Karte übernommen werden.</p></section>
+  <footer><button id="settings" type="button" class="secondary" data-i18n="settings">Einstellungen</button><span class="spacer"></span><button id="cancel" type="button" class="secondary" data-i18n="cancel">Abbrechen</button><button id="apply" type="button" disabled data-i18n="apply">Übernehmen</button></footer>
+  <p class="hint"><span data-i18n="attributionIntro">Suche: Photon · Daten:</span> <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer"><span data-i18n="attribution">© OpenStreetMap-Mitwirkende (ODbL)</span></a><span data-i18n="notOfficial">. Ein Treffer ist keine amtliche Adressbestätigung.</span></p>
+<p><a href="../privacy/privacy.html" target="_blank" rel="noopener" data-i18n="privacy">Privacy</a> <small id="version"></small></p></main><script type="module" src="dialog.js"></script></body></html>
